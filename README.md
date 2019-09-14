@@ -1,2 +1,2 @@
-# Helm
-Helm tiller charts  应用安装
+# helm
+helm tiller charts  应用安装
