@@ -1,0 +1,6 @@
+helm repo add aliyun https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
+helm repo add test --username=admin --password=xxxxxx  https://harbor.chenkaidi.com/chartrepo/test
+helm repo list
+NAME  	URL                                                   
+stable	https://kubernetes.oss-cn-hangzhou.aliyuncs.com/charts
+test  	https://harbor.chenkaidi.com/chartrepo/test 
