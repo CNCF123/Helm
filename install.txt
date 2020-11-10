@@ -6,3 +6,6 @@ tar -xvf helm-v3.3.3-linux-amd64.tar.gz
 chmod +x helm 
 mv helm /usr/local/bin/
 
+3.安装helm-push
+yum -y install git
+helm plugin install https://github.com/chartmuseum/helm-push
