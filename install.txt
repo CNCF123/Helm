@@ -1,0 +1,8 @@
+1.下载
+wget https://cncf.oss-cn-hangzhou.aliyuncs.com/helm/helm-v3.3.3-linux-amd64.tar.gz
+
+2.安装
+tar -xvf helm-v3.3.3-linux-amd64.tar.gz 
+chmod +x helm 
+mv helm /usr/local/bin/
+
