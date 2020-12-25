@@ -1,0 +1,10 @@
+helm plugin install https://github.com/chartmuseum/helm-push
+
+helm repo add myharborlib  https://[harbor-domain-name]/chartrepo/chart_repo --username admin --password Harbor123
+
+# helm repo list
+NAME       	URL                                                         
+harbor     	https://helm.goharbor.io                                    
+myharborlib	https://[harbor-domain-name]/chartrepo/chart_repo
+
+helm push mychart/ myharborlib
